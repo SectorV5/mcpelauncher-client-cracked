@@ -38,7 +38,7 @@ FakeJni::JBoolean Store::receivedLicenseResponse() {
 }
 
 FakeJni::JBoolean Store::hasVerifiedLicense() {
-    return _hasVerifiedLicense;
+    return true;
 }
 
 std::shared_ptr<FakeJni::JString> Store::getStoreId() {
